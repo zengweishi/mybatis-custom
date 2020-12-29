@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mapper namespace="com.mybatis.mapper.UserMapper">
+    <!-- 配置查询所有用户 -->
+    <select id="listAllUsers" resultType="com.mybatis.pojo.User">
+        SELECT * FROM user
+    </select>
+</mapper>
